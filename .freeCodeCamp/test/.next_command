@@ -137,3 +137,7 @@ git checkout main
 git checkout -b main
 git status
 git add .
+git status
+git push origin main
+git log --oneline
+git commit -am "feat: Implement number guessing game logic"
