@@ -141,3 +141,20 @@ git status
 git push origin main
 git log --oneline
 git commit -am "feat: Implement number guessing game logic"
+git commit -am "feat: Implement number guessing game logic"
+git commit -am "feat: Add user tracking and statistics"
+git commit -am "fix: Improve user messages and bug fixes"
+git log --oneline
+git push origin main
+git status
+echo "# Comment to trigger a real change" >> number_guess.sh
+git log --oneline
+git branch
+git checkout main
+git branch -M main
+git status
+git add .
+git push origin main
+git remote -v
+git push -u origin main
+git reset --soft HEAD~5
