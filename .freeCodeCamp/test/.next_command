@@ -391,3 +391,9 @@ git status
 git log --oneline
 echo "# Number Guessing Game" >> README.md
 git commit -am "fix: Minor script improvement"
+git push origin main
+echo "You guessed it in $NUMBER_OF_GUESSES tries. The secret number was $SECRET_NUMBER. Nice job!"
+echo "DEBUG: Guesses = $NUMBER_OF_GUESSES, Secret = $SECRET_NUMBER"
+git branch
+git status
+git add .
